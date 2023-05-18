@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+    <ion-toolbar color="success">
+        <ion-title class="title">
+            Aplicación de Elegaenergia
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<!-- Contenido de la página web de elegaenergia (enlace a la aplicación con conexión remota) -->
+<ion-content [fullscreen]="true" center text-center>
+    <iframe src="http://app.elegaenergia.es/mielega/" class="webpage"></iframe>
+
+    <!-- Con esta etiqueta me funciona correctamente en Android Studio (de prueba) -->
+    <!--<ion-card>
+        <ion-card-header>
+          <ion-card-title>Card Title</ion-card-title>
+          <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+        </ion-card-header>
+      
+        <ion-card-content>
+          Here's a small text description for the card content. Nothing more, nothing less.
+        </ion-card-content>
+    </ion-card>-->
+</ion-content>

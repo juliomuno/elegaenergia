@@ -1,0 +1,8 @@
+{
+  "name": "elegaenergia",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
